@@ -1,6 +1,6 @@
 <?php
 
-require "Importphpfle/connection.php";
+require "connection.php";
 
 
 $uniq_id=uniqid();

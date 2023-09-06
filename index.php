@@ -224,7 +224,7 @@
 
                     <?php
 
-                    require "Importphpfle/connection.php";
+                    require "connection.php";
 
                     $food = Database::search("SELECT * FROM `foods`");
                     $food_num = $food->num_rows;
